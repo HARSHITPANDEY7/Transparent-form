@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: url("bgimg2.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+.container{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	position: absolute;
+	width: 28%;
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    color: black;
+
+
+}
+h1{
+	float: left;
+	color: yellow;
+	border-bottom: 5px solid blue;
+	margin-bottom: 12px;
+}
+.box{
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin: 13px 0px;
+	
+
+}
+.box input{
+	width: 70%;
+	background: none;/*transparent*/
+	
+	font-size: 20px;
+	
+    padding: 6px 0px;
+
+	outline: none;
+
+}
+.btn{
+	cursor: pointer;
+	outline: none;
+	width: 25%;
+	margin-top: 12px 0;
+	border-radius: 10px;
+	padding: 12px;
+	border: 2px solid purple;
+}
+.btn:hover{
+	color: white;
+	background-color: black;
+}
